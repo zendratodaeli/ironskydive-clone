@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: rgb(28, 26, 26);
+  color: white;
+  height: 40px;
+  width: 100%;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+header {
+  padding-top: 44px;
+  background: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  background-size: cover;
+  position: 0 0;
+  height: 380px;
+}
+.header-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header-first-title {
+  margin-left: 14px;
+}
+.header-second-title {
+ display: flex; 
+ justify-content: center;
+ margin-left: 105px;
+ text-shadow: #020819 3px -10px 3px;
+ color: white;
+}
+
+.quotes {
+  margin-top: 80px;
+  margin-left: 160px;
+}
+
+article {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgb(28, 26, 26);
+}
+
+.article-container {
+  width: 250px;
+  text-align: center;
+  color: white;
+  height: 150px;
+  margin-top: -5px;
+}
+
+p {
+  line-height: 20px;
+  margin-top: -12px;
+  font-size: 13px;
+}
+.button-article {
+  background-color: rgb(90, 193, 241);
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.how-do-we {
+  text-align: center;
+}
+
+.home-icons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.image-icon-training, .image-icon-getready,
+.image-icon-fly, .image-icon-jump {
+  width: 350px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: rgb(186, 180, 180);
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  box-shadow: 5px 10px 18px #888888;
+  }
+
+.image-icon {
+  width: 100px;
+}
+
+.image-icon-training {
+  justify-self: right;
+  margin-right: 70px;
+  margin-bottom: 40px;
+}
+
+.image-icon-getready {
+  justify-self: left;
+  margin-left: 70px;
+  margin-bottom: 40px;
+}
+
+.image-icon-fly {
+  justify-self: right;
+  margin-right: 70px;
+}
+
+.image-icon-jump {
+  justify-self: left;
+  margin-left: 70px;
+}
+
+.third-page-container {
+  background: rgb(11, 1, 32);
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 100%;
+  height: 370px;
+}
+
+.team-container {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+  width: 600px;
+  margin: auto;
+}
+
+.line-white {
+  background-color: white;
+  color: white;
+  width: 450px;
+  height: 2px;
+  font-size: 1px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.name-containers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.harold-container, .susan-container, .taylor-container {
+  width: 300px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.image-harold, .image-susan, .image-taylor {
+  width: 200px;
+}
+
+.table-container {
+  margin-top: 60px;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.schedule-container {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.email-container {
+  line-height: 5px;
+}
+.email-bar, .participants-bar, .date-bar {
+  width: 450px;
+  height: 20px;
+  padding: 2px;
+  margin-top: -15px;
+}
+
+select {
+  width: 458px;
+  height: 28px;
+}
+.reserve-button {
+  width: 150px;
+  height: 45px;
+  margin-top: 15px;
+  border-width: 1px;
+  border-style: solid;
+  font-weight: 700;
+}
+
+.map-frame {
+  height: 375px;
+  width: 60%;
+}
+
+.footer {
+  margin-top: 50px;
+  background: rgb(11, 1, 32);
+  font-size: 1.9em;
+  text-align: center;
+  padding: 40px 100px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address {
+  font-size: 15px;
+  font-style: normal;
+  margin-bottom: 30px;
+  color: white;
+  line-height: 30px;
+
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer a {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+
+.contact-info, .follow-us {
+  color: white;
+}
+
+.follow-us {
+  margin-bottom: -20px;
+}
+
+ul li {
+  font-size: 20px;
+  line-height: 40px;
+}
